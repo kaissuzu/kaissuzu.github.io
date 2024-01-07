@@ -13,7 +13,7 @@ const Services = () => {
   return (
     <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
+            <h3 className='text-3xl py-1 dark:text-white'>About</h3>
             
           </div>
           <div className='lg:flex  justify-center gap-10'>
@@ -47,7 +47,6 @@ const Services = () => {
             <div className='text-left shadow-lg p-10 rounded-xl my-10 dark:bg-gray-600'>
               <GrTechnology className='mx-auto text-8xl' />
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Skills</h3>
-              <p className='py-2 dark:text-white'>design this is design</p>
               <h4 className='py-4 text-teal-600'>Frontend</h4>
               <p className='dark:text-white'>HTML/CSS</p>
               <p className='dark:text-white'>JavaScript</p>
