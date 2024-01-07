@@ -10,7 +10,14 @@ import web6 from "../../../../public/web6.png";
 import PortfolioImage from './PortfolioImage';
 
 const PortfolioPNG = [
-  web1, web2, web3, web4, web5, web6
+  {
+    src: web1,
+    url: "http://ku-fes.com/2018/"
+  },
+  {
+    src: web2,
+    url: "http://www.flyworld.jp/"
+  }
 ];
 
 const Portfolio = () => {
@@ -22,7 +29,7 @@ const Portfolio = () => {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             {
-              PortfolioPNG.map((image) => <PortfolioImage src={image} />)
+              PortfolioPNG.map((image) => <PortfolioImage src={image.src} url={image.url = "#"} />)
             }
             
           </div>
