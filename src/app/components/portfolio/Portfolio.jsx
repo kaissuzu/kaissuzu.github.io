@@ -29,7 +29,7 @@ const Portfolio = () => {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             {
-              PortfolioPNG.map((image) => <PortfolioImage src={image.src} url={image.url = "#"} />)
+              PortfolioPNG.map((image) => <PortfolioImage src={image.src} url={image.url} />)
             }
             
           </div>
