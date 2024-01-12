@@ -17,6 +17,10 @@ const PortfolioPNG = [
   {
     src: web2,
     url: "http://www.flyworld.jp/"
+  },
+  {
+    src: web3,
+    url: "https://wakayama-onsen.com/"
   }
 ];
 
